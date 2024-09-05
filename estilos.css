@@ -76,10 +76,6 @@ body {
     z-index: 1000;
 }
 
-.menu-bar ul li:hover .dropdown-menu {
-    display: block;
-}
-
 .dropdown-menu ul {
     list-style: none;
     padding: 0;
@@ -89,6 +85,10 @@ body {
 .dropdown-menu ul li {
     padding: 10px;
     width: 150px;
+}
+
+.menu-bar ul li:hover .dropdown-menu {
+    display: block;
 }
 
 @media screen and (max-width: 800px) {
@@ -245,4 +245,3 @@ nav .indicator {
     transform: scale(1.1); /* Efecto de zoom cuando pases el ratón sobre la imagen */
     cursor: pointer;
 }
-
